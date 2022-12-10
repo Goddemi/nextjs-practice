@@ -1,4 +1,7 @@
-function HomePage({ product }) {
+import path from "path";
+import fs from "fs/promises";
+
+export function HomePage({ product }) {
   return (
     <ul>
       <li>{product.id}</li>
@@ -9,6 +12,9 @@ function HomePage({ product }) {
 }
 
 export const getStaticProps = async () => {
+  const filePath = path.join();
+  await fs.readFile();
+
   return {
     props: {
       product: [{ id: "hi", title: "me" }],
