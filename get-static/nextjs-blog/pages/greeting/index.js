@@ -1,7 +1,7 @@
 import React from "react";
 
 const Greeting = () => {
-  return <div>greeting</div>;
+  return <div>greeting!</div>;
 };
 
 export default Greeting;

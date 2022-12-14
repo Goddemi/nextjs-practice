@@ -1,7 +1,9 @@
 import React from "react";
 
 const Okay = () => {
-  return <div>okay</div>;
+  return <div>yoyo</div>;
 };
+
+export const getStaticProps = async () => {};
 
 export default Okay;
